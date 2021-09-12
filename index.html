@@ -1,59 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Room homepage</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Home
-  Shop
-  About
-  Contact
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/common.css" />
 
-  Discover innovative ways to decorate
+    <title>Frontend Mentor | Room homepage</title>
 
-  We provide unmatched quality, comfort, and style for property owners across the country. 
-  Our experts combine form and function in bringing your vision to life. Create a room in your 
-  own style with our collection and make your property a reflection of you and what you love.
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="page">
+    <main class="content">
+      <section class="hero hero--main">
+        <nav class="nav-bar">
+          <li class="nav-bar__logo-item">
+            <a href="#"
+              ><img
+                class="nav-bar__logo-svg"
+                src="./images/logo.svg"
+                alt="room Logo"
+            /></a>
+          </li>
+          <li class="nav-bar__item">
+            <a href="#">Home</a>
+          </li>
+          <li class="nav-bar__item">
+            <a href="#">Shop</a>
+          </li>
+          <li class="nav-bar__item">
+            <a href="#">About</a>
+          </li>
+          <li class="nav-bar__item">
+            <a href="#">Contact</a>
+          </li>
+        </nav>
+      </section>
 
-  Shop now
+      <section class="text-section text-section--slide">
+        <h2 class="text-section__heading">
+          Discover innovative ways to decorate
+        </h2>
+        <p class="text-section__text">
+          We provide unmatched quality, comfort, and style for property owners
+          across the country. Our experts combine form and function in bringing
+          your vision to life. Create a room in your own style with our
+          collection and make your property a reflection of you and what you
+          love.
+        </p>
+        <a href="" class="text-section__shop-link">Shop now</a>
+      </section>
 
-  We are available all across the globe
+      <section class="text-section text-section--slide">
+        <h2 class="text-section__heading">
+          We are available all across the globe
+        </h2>
+        <p class="text-section__text">
+          With stores all over the world, it's easy for you to find furniture
+          for your home or place of business. Locally, we’re in most major
+          cities throughout the country. Find the branch nearest you using our
+          store locator. Any questions? Don't hesitate to contact us today.
+        </p>
+        <a href="" class="text-section__shop-link">Shop now</a>
+      </section>
 
-  With stores all over the world, it's easy for you to find furniture for your home or place of business. 
-  Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
-  store locator. Any questions? Don't hesitate to contact us today.
+      <section class="text-section text-section--slide">
+        <h2 class="text-section__heading">
+          Manufactured with the best materials
+        </h2>
+        <p class="text-section__text">
+          Our modern furniture store provide a high level of quality. Our
+          company has invested in advanced technology to ensure that every
+          product is made as perfect and as consistent as possible. With three
+          decades of experience in this industry, we understand what customers
+          want for their home and office.
+        </p>
+        <a href="" class="text-section__shop-link">Shop now</a>
+      </section>
 
-  Shop now
+      <section class="hero hero--sub"></section>
 
-  Manufactured with the best materials
+      <section class="text-section text-section--about">
+        <h2 class="text-section__heading">About our furniture</h2>
+        <p class="text-section__text">
+          Our multifunctional collection blends design and function to suit your
+          individual taste. Make each room unique, or pick a cohesive theme that
+          best express your interests and what inspires you. Find the furniture
+          pieces you need, from traditional to contemporary styles or anything
+          in between. Product specialists are available to help you create your
+          dream space.
+        </p>
+      </section>
 
-  Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
-  to ensure that every product is made as perfect and as consistent as possible. With three decades of 
-  experience in this industry, we understand what customers want for their home and office.
+      <section class="hero hero--sub"></section>
+    </main>
 
-  Shop now
-
-  About our furniture
-
-  Our multifunctional collection blends design and function to suit your individual taste.
-  Make each room unique, or pick a cohesive theme that best express your interests and what
-  inspires you. Find the furniture pieces you need, from traditional to contemporary styles
-  or anything in between. Product specialists are available to help you create your dream space.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
 </html>
